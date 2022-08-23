@@ -7,3 +7,13 @@ h1 {
     color: #FF5E19;
     font-family: 'Berkshire Swash', cursive;
 }
+
+.main-sec {
+    background-color: #151515;
+}
+.selected-players {
+    background-color: #0D0D0D;
+}
+.budget {
+    background-color: #0D0D0D;
+}
