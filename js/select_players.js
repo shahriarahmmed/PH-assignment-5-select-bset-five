@@ -1,3 +1,6 @@
+function disable(x) {
+        x.disabled = true;
+}
 document.getElementById('player-1').addEventListener('click', function(){
         const playerNameSelect = document.getElementById('player-1-name').innerText;
         const nameList = document.getElementById('list');
@@ -61,3 +64,4 @@ document.getElementById('player-9').addEventListener('click', function(){
         newListItem.textContent = playerNameSelect;
         nameList.appendChild(newListItem);
 })
+
