@@ -1,6 +1,8 @@
-function disable(x) {
-        x.disabled = true;
+// On click button disbale function
+function disable(btn) {
+        btn.disabled = true;
 }
+// player selection
 document.getElementById('player-1').addEventListener('click', function(){
         const playerNameSelect = document.getElementById('player-1-name').innerText;
         const nameList = document.getElementById('list');
